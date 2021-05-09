@@ -10,7 +10,7 @@ high_score = 0
 #set up the screen
 wn = turtle.Screen()
 wn.title("SNAKE GAME")
-wn.bgcolor("black")
+wn.bgcolor("grey")
 wn.setup(width=600, height=600)
 wn.tracer(0)#Turns off the screen updates
 
@@ -26,7 +26,7 @@ head.direction = "stop"
 #Snake food
 food = turtle.Turtle()
 food.speed(0)
-food.shape("circle")
+food.shape("triangle")
 food.color("yellow")
 food.penup()
 food.goto(0,100)
